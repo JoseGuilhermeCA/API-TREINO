@@ -1,0 +1,58 @@
+{
+  "usuarios": [
+    {
+      "nome": "João",
+      "email": "joao@example.com",
+      "senha": "$2a$04$6w0wQ.4aAt0fcZlYz2WZYOTteo3igoLBpPdUwcs3/Jck4MB3uakgO" 
+    },
+    {
+      "nome": "Maria",
+      "email": "maria@example.com",
+      "senha": "$2a$04$6w0wQ.4aAt0fcZlYz2WZYOTteo3igoLBpPdUwcs3/Jck4MB3uakgO"
+    }
+  ],
+  "exercicios": [
+    {
+      "nome": "Flexão",
+      "descricao": "Exercício para peito"
+    },
+    {
+      "nome": "Agachamento",
+      "descricao": "Exercício para pernas"
+    }
+  ],
+  "treinos": [
+    {
+      "data": "2023-01-01",
+      "idUsuario": 1,
+      "exercicios": [
+        {
+          "exercicio": 1,
+          "series": 3,
+          "repeticoes": 10
+        },
+        {
+          "exercicio": 2,
+          "series": 4,
+          "repeticoes": 12
+        }
+      ]
+    },
+    {
+      "data": "2023-01-02",
+      "idUsuario": 2,
+      "exercicios": [
+        {
+          "exercicio": 1,
+          "series": 3,
+          "repeticoes": 10
+        },
+        {
+          "exercicio": 2,
+          "series": 4,
+          "repeticoes": 12
+        }
+      ]
+    }
+  ]
+}
